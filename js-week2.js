@@ -1,3 +1,5 @@
+
+///////////////////////////////////////////////////////////////////////////////
 // Atanas average module score;
 
 let studentModuleScores = [77, 35, 50, 61, 68, 65, 80, 71, 40, 60];
@@ -11,6 +13,7 @@ function averageModuleScore ( ){
 return `The average module score for Atanas is ${averageScore}.`; 
 }
 console.log(averageModuleScore());
+/////////////////////////////////////////////////////////////////////////////////
 
 /* Atanas Sum with loops - large numbers - the power of loops is best 
 used at large calculations - could you calculate the sum of the numbers 
@@ -24,3 +27,5 @@ for (let i = 50; i <= 500; i++){
 return `The sum of the numbers between 50 and 500 is ${totalNumbers}`;
 }
 console.log(addNumbers());
+
+//////////////////////////////////////////////////////////////////////////////////
